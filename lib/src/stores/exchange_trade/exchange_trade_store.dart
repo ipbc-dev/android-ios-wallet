@@ -50,7 +50,7 @@ abstract class ExchangeTradeStoreBase with Store {
 
   @override
   void dispose() {
-    super.dispose();
+    //super.dispose();
 
     if (_timer != null) {
       _timer.cancel();

@@ -76,7 +76,7 @@ abstract class WalletStoreBase with Store {
       _onSubaddressChangeSubscription.cancel();
     }
 
-    super.dispose();
+    //super.dispose();
   }
 
   @action

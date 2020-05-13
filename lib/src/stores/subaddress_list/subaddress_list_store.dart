@@ -44,7 +44,7 @@ abstract class SubaddressListStoreBase with Store {
     }
 
     _onWalletChangeSubscription.cancel();
-    super.dispose();
+    //super.dispose();
   }
 
   Future<void> _updateSubaddressList({int accountIndex}) async {

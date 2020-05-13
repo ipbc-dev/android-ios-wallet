@@ -163,7 +163,7 @@ abstract class ActionListBase with Store {
     _onTransactionDescriptions?.cancel();
     _onWalletChangeSubscription.cancel();
     _onTradesChanged?.cancel();
-    super.dispose();
+    //super.dispose();
   }
 
   @action

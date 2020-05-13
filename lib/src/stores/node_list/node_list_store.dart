@@ -31,7 +31,7 @@ abstract class NodeListBase with Store {
 
   @override
   void dispose() {
-    super.dispose();
+    //super.dispose();
 
     if (_onNodesChangeSubscription != null) {
       _onNodesChangeSubscription.cancel();

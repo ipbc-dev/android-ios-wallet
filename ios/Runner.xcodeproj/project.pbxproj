@@ -34,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		00B973AD352B2957AC387EA9 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		036A2B38246C7020004BB393 /* libhidapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhidapi.a; path = ../../../../../../../usr/local/lib/libhidapi.a; sourceTree = "<group>"; };
 		0C0DB1F6237DB1AD00BD32F9 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C0DB1F7237DB1AE00BD32F9 /* A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A.swift; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 		D7C5668014A527FFA32576AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				036A2B38246C7020004BB393 /* libhidapi.a */,
 				00B973AD352B2957AC387EA9 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
@@ -279,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

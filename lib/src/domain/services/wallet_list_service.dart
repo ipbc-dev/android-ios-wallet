@@ -42,6 +42,7 @@ class WalletListService {
       .toList();
 
   Future create(String name, String language) async {
+    print("wls create 1");
     if (await walletsManager.isWalletExit(name)) {
       throw WalletIsExistException(name);
     }
@@ -50,10 +51,16 @@ class WalletListService {
       await walletService.close();
     }
 
+    print("wls create 2");
+
     final password = Uuid().v4();
     await saveWalletPassword(password: password, walletName: name);
 
+    print("wls create 3");
+
     final wallet = await walletsManager.create(name, password, language);
+
+    print("wls create 4");
 
     await onWalletChange(wallet);
   }

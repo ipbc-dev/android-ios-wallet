@@ -36,13 +36,21 @@ class MoneroWalletsManager extends WalletsManager {
       const isRecovery = false;
       final path = await pathForWallet(name: name);
 
+      print("mwm create 1");
+
       await monero_wallet_manager.createWallet(path: path, password: password, language: language);
+
+      print("mwm create 2");
 
       final wallet = await MoneroWallet.createdWallet(
           walletInfoSource: walletInfoSource,
           name: name,
           isRecovery: isRecovery);
+
+      print("mwm create 3");
       await wallet.updateInfo();
+
+      print("mwm create 4");
 
       return wallet;
     } catch (e) {

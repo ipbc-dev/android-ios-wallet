@@ -36,7 +36,7 @@ abstract class SyncStoreBase with Store {
     }
 
     _onWalletChangeSubscription.cancel();
-    super.dispose();
+    //super.dispose();
   }
 
   void _onWalletChanged(Wallet wallet) {

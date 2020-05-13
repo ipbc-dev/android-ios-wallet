@@ -49,7 +49,7 @@ abstract class AcountListStoreBase with Store {
       _onAccountsChangeSubscription.cancel();
     }
 
-    super.dispose();
+    //super.dispose();
   }
 
   void updateAccountList() {

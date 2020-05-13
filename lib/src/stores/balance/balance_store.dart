@@ -83,7 +83,7 @@ abstract class BalanceStoreBase with Store {
       _onBalanceChangeSubscription.cancel();
     }
 
-    super.dispose();
+    //super.dispose();
   }
 
   Future _onBalanceChange(Balance balance) async {

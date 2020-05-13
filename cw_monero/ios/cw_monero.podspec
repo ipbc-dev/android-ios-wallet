@@ -22,22 +22,22 @@ A new flutter plugin project.
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/Classes/*.h" }
 
   s.subspec 'OpenSSL' do |openssl|
-    openssl.preserve_paths = 'External/ios/libs/OpenSSL/include/openssl/*.h', 'External/ios/libs/OpenSSL/include/LICENSE'
-    openssl.vendored_libraries = 'External/ios/libs/OpenSSL/lib/libcrypto.a', 'External/ios/libs/OpenSSL/lib/libssl.a'
+    openssl.preserve_paths = 'External/ios/libs/openssl/include/openssl/*.h', 'External/ios/libs/openssl/include/LICENSE'
+    openssl.vendored_libraries = 'External/ios/libs/openssl/lib/libcrypto.a', 'External/ios/libs/openssl/lib/libssl.a'
     openssl.libraries = 'ssl', 'crypto'
-    openssl.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/External/ios/libs/OpenSSL/include/**" }
+    openssl.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/External/ios/libs/openssl/include/**" }
   end
 
   s.subspec 'Monero' do |monero|
-    monero.preserve_paths = 'External/ios/libs/monero/include/src/**/*.h', 'External/ios/libs/monero/include/External/ios/**/*.h', 'External/ios/libs/monero/include/contrib/**/*.h'
+    monero.preserve_paths = 'External/ios/libs/monero/src/**/*.h', 'External/ios/libs/monero/include/External/ios/**/*.h', 'External/ios/libs/monero/include/contrib/**/*.h'
     monero.vendored_libraries = 'External/ios/libs/monero/libs/lib-ios/*.a'
     monero.libraries = 'easylogging', 'epee', 'unbound', 'wallet_merged', 'lmdb', 'randomx'
-    monero.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/External/ios/libs/monero/include/src/**" }
+    monero.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/External/ios/libs/monero/build/release/src/**" }
   end
 
   s.subspec 'Boost' do |boost|
     boost.preserve_paths = 'External/ios/libs/boost/include/**/*.h', 'External/ios/libs/boost/include/**/*.h'
-    boost.vendored_libraries = 'External/ios/libs/boost/build/libs/universal/*.a'
+    boost.vendored_libraries = 'External/ios/libs/boost/build/libs/arm64/*.a' 
     boost.libraries = 'boost', 'boost_wserialization', 'boost_thread', 'boost_system', 'boost_signals', 'boost_serialization', 'boost_regex', 'boost_random', 'boost_program_options', 'boost_locale', 'boost_graph', 'boost_filesystem', 'boost_date_time', 'boost_chrono'
     boost.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/External/ios/libs/boost/include/**" }
   end

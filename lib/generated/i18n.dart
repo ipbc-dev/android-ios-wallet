@@ -260,7 +260,7 @@ class S implements WidgetsLocalizations {
   String get wallet_restoration_store_incorrect_seed_length => "Incorrect seed length";
   String get wallet_store_monero_wallet => "Monero Wallet";
   String get wallets => "Wallets";
-  String get welcome => "WELCOME\nTO CAKE WALLET";
+  String get welcome => "WELCOME\nTO BITTUBE WALLET";
   String get widgets_address => "Address";
   String get widgets_or => "or";
   String get widgets_restore_from_blockheight => "Restore from blockheight";
@@ -338,7 +338,7 @@ class $de extends S {
   @override
   String get trade_state_underpaid => "Unterbezahlt";
   @override
-  String get welcome => "Willkommen\nzu CAKE WALLET";
+  String get welcome => "Willkommen\nzu BITTUBE WALLET";
   @override
   String get share_address => "Adresse teilen ";
   @override
@@ -906,7 +906,7 @@ class $hi extends S {
   @override
   String get trade_state_underpaid => "के तहत भुगतान किया";
   @override
-  String get welcome => "स्वागत हे\nसेवा मेरे CAKE WALLET";
+  String get welcome => "स्वागत हे\nसेवा मेरे BITTUBE WALLET";
   @override
   String get share_address => "पता साझा करें";
   @override
@@ -1474,7 +1474,7 @@ class $ru extends S {
   @override
   String get trade_state_underpaid => "Недоплаченная";
   @override
-  String get welcome => "Приветствуем в CAKE WALLET";
+  String get welcome => "Приветствуем в BITTUBE WALLET";
   @override
   String get share_address => "Поделиться адресом";
   @override
@@ -2042,7 +2042,7 @@ class $ko extends S {
   @override
   String get trade_state_underpaid => "미지급";
   @override
-  String get welcome => "환영\n에 CAKE WALLET";
+  String get welcome => "환영\n에 BITTUBE WALLET";
   @override
   String get share_address => "주소 공유";
   @override
@@ -2610,7 +2610,7 @@ class $pt extends S {
   @override
   String get trade_state_underpaid => "Parcialmente paga";
   @override
-  String get welcome => "BEM-VINDO(A)\nÀ CAKE WALLET";
+  String get welcome => "BEM-VINDO(A)\nÀ BITTUBE WALLET";
   @override
   String get share_address => "Compartilhar endereço";
   @override
@@ -3178,7 +3178,7 @@ class $uk extends S {
   @override
   String get trade_state_underpaid => "Недоплачена";
   @override
-  String get welcome => "Вітаємо в CAKE WALLET";
+  String get welcome => "Вітаємо в BITTUBE WALLET";
   @override
   String get share_address => "Поділитися адресою";
   @override
@@ -3746,7 +3746,7 @@ class $ja extends S {
   @override
   String get trade_state_underpaid => "支払不足";
   @override
-  String get welcome => "ようこそ\nに CAKE WALLET";
+  String get welcome => "ようこそ\nに BITTUBE WALLET";
   @override
   String get share_address => "住所を共有する";
   @override
@@ -4318,7 +4318,7 @@ class $pl extends S {
   @override
   String get trade_state_underpaid => "Niedopłacone";
   @override
-  String get welcome => "WITAMY\nW CAKE WALLET";
+  String get welcome => "WITAMY\nW BITTUBE WALLET";
   @override
   String get share_address => "Udostępnij adres";
   @override
@@ -4886,7 +4886,7 @@ class $es extends S {
   @override
   String get trade_state_underpaid => "Poco pagado";
   @override
-  String get welcome => "Bienvenido\n CAKE WALLET";
+  String get welcome => "Bienvenido\n BITTUBE WALLET";
   @override
   String get share_address => "Compartir dirección";
   @override
@@ -5454,7 +5454,7 @@ class $nl extends S {
   @override
   String get trade_state_underpaid => "Slecht betaald";
   @override
-  String get welcome => "WELKOM\nBIJ CAKE WALLET";
+  String get welcome => "WELKOM\nBIJ BITTUBE WALLET";
   @override
   String get share_address => "Deel adres";
   @override
@@ -6022,7 +6022,7 @@ class $zh extends S {
   @override
   String get trade_state_underpaid => "支付不足";
   @override
-  String get welcome => "欢迎\nTO CAKE WALLET";
+  String get welcome => "欢迎\nTO BITTUBE WALLET";
   @override
   String get share_address => "分享地址";
   @override

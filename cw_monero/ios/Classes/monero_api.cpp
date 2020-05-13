@@ -15,6 +15,10 @@ extern "C"
 {
 #endif
 
+    void __clear_cache(void* a, void* b) {
+    // Fucking nothing
+    }
+
     struct Utf8Box
     {
         char *value;

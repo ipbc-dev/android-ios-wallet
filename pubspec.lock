@@ -49,7 +49,7 @@ packages:
       name: barcode_scan
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0"
+    version: "2.0.0"
   basic_utils:
     dependency: "direct main"
     description:
@@ -337,7 +337,7 @@ packages:
       name: hive
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.4.1+1"
+    version: "1.2.0"
   hive_flutter:
     dependency: "direct main"
     description:
@@ -428,7 +428,7 @@ packages:
       name: local_auth
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.2+1"
+    version: "0.6.2+2"
   logging:
     dependency: transitive
     description:
@@ -477,14 +477,14 @@ packages:
       name: node_interop
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "1.1.1"
   node_io:
     dependency: transitive
     description:
       name: node_io
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.1.1"
   package_config:
     dependency: transitive
     description:
@@ -498,7 +498,7 @@ packages:
       name: package_info
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0+17"
+    version: "0.4.0+18"
   package_resolver:
     dependency: transitive
     description:
@@ -526,7 +526,7 @@ packages:
       name: path_provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.7"
+    version: "1.6.8"
   path_provider_macos:
     dependency: transitive
     description:
@@ -540,7 +540,7 @@ packages:
       name: path_provider_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   pedantic:
     dependency: "direct dev"
     description:
@@ -583,13 +583,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.0"
-  protobuf:
-    dependency: transitive
-    description:
-      name: protobuf
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.1"
   provider:
     dependency: "direct main"
     description:
@@ -638,14 +631,14 @@ packages:
       name: share
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.4+1"
+    version: "0.6.4+2"
   shared_preferences:
     dependency: "direct main"
     description:
       name: shared_preferences
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.7+1"
+    version: "0.5.7+2"
   shared_preferences_macos:
     dependency: transitive
     description:
@@ -659,7 +652,7 @@ packages:
       name: shared_preferences_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "1.0.4"
   shared_preferences_web:
     dependency: transitive
     description:
@@ -762,7 +755,7 @@ packages:
       name: url_launcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.4.5"
+    version: "5.4.7"
   url_launcher_macos:
     dependency: transitive
     description:
@@ -776,14 +769,14 @@ packages:
       name: url_launcher_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.6"
+    version: "1.0.7"
   url_launcher_web:
     dependency: transitive
     description:
       name: url_launcher_web
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.1+4"
+    version: "0.1.1+5"
   uuid:
     dependency: "direct main"
     description:
