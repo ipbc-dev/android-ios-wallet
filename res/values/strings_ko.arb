@@ -30,9 +30,9 @@
   "wallet_menu" : "월렛 메뉴",
   "Blocks_remaining" : "${status} 남은 블록",
   "please_try_to_connect_to_another_node" : "다른 노드에 연결을 시도하십시오",
-  "xmr_hidden" : "XMR 숨김",
-  "xmr_available_balance" : "XMR 사용 가능한 잔액",
-  "xmr_full_balance" : "XMR 풀 밸런스",
+  "xmr_hidden" : "TUBE 숨김",
+  "xmr_available_balance" : "TUBE 사용 가능한 잔액",
+  "xmr_full_balance" : "TUBE 풀 밸런스",
   "send" : "보내다",
   "receive" : "받다",
   "transactions" : "업무",
@@ -275,7 +275,7 @@
   "error_text_node_address" : "iPv4 주소를 입력하십시오",
   "error_text_node_port" : "노드 포트는 0에서 65535 사이의 숫자 만 포함 할 수 있습니다",
   "error_text_payment_id" : "지불 ID는 16 ~ 64 자의 16 진 문자 만 포함 할 수 있습니다",
-  "error_text_xmr" : "XMR 값은 사용 가능한 잔액을 초과 할 수 없습니다.\n소수 자릿수는 12 이하 여야합니다",
+  "error_text_xmr" : "TUBE 값은 사용 가능한 잔액을 초과 할 수 없습니다.\n소수 자릿수는 12 이하 여야합니다",
   "error_text_fiat" : "금액은 사용 가능한 잔액을 초과 할 수 없습니다.\n소수 자릿수는 2보다 작거나 같아야합니다",
   "error_text_subaddress_name" : "하위 주소 이름은 포함 할 수 없습니다 ` , ' \" 기호 \n1 ~ 20 자 사이 여야합니다",
   "error_text_amount" : "금액은 숫자 만 포함 할 수 있습니다",
@@ -348,6 +348,6 @@
   "biometric_auth_reason" : "지문을 스캔하여 인증",
   "version" : "버전 ${currentVersion}",
 
-  "openalias_alert_title" : "XMR 수신자 감지",
+  "openalias_alert_title" : "TUBE 수신자 감지",
   "openalias_alert_content" : "당신은에 자금을 보낼 것입니다\n${recipient_name}"
 }

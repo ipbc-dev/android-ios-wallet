@@ -73,7 +73,7 @@ class S implements WidgetsLocalizations {
   String get error_text_payment_id => "Payment ID can only contain from 16 to 64 chars in hex";
   String get error_text_subaddress_name => "Subaddress name can't contain ` , ' \" symbols\nand must be between 1 and 20 characters long";
   String get error_text_wallet_name => "Wallet name can only contain letters, numbers\nand must be between 1 and 15 characters long";
-  String get error_text_xmr => "XMR value can't exceed available balance.\nThe number of fraction digits must be less or equal to 12";
+  String get error_text_xmr => "TUBE value can't exceed available balance.\nThe number of fraction digits must be less or equal to 12";
   String get estimated => "Estimated";
   String get exchange => "Exchange";
   String get exchange_result_write_down_ID => "*Please copy or write down your ID shown above.";
@@ -102,7 +102,7 @@ class S implements WidgetsLocalizations {
   String get nodes_list_reset_to_default_message => "Are you sure that you want to reset settings to default?";
   String get offer_expires_in => "Offer expires in: ";
   String get ok => "OK";
-  String get openalias_alert_title => "XMR Recipient Detected";
+  String get openalias_alert_title => "TUBE Recipient Detected";
   String get outgoing => "Outgoing";
   String get password => "Password";
   String get paste => "Paste";
@@ -266,9 +266,9 @@ class S implements WidgetsLocalizations {
   String get widgets_restore_from_blockheight => "Restore from blockheight";
   String get widgets_restore_from_date => "Restore from date";
   String get widgets_seed => "Seed";
-  String get xmr_available_balance => "XMR Available Balance";
-  String get xmr_full_balance => "XMR Full Balance";
-  String get xmr_hidden => "XMR Hidden";
+  String get xmr_available_balance => "TUBE Available Balance";
+  String get xmr_full_balance => "TUBE Full Balance";
+  String get xmr_hidden => "TUBE Hidden";
   String get yesterday => "Yesterday";
   String get you_will_get => "You will get";
   String get you_will_send => "You will send";
@@ -474,7 +474,7 @@ class $de extends S {
   @override
   String get restore_seed_keys_restore => "Seed / Schlüssel wiederherstellen";
   @override
-  String get xmr_hidden => "XMR versteckt";
+  String get xmr_hidden => "TUBE versteckt";
   @override
   String get send_xmr => "Senden XMR";
   @override
@@ -560,7 +560,7 @@ class $de extends S {
   @override
   String get error_text_xmr => "Der XMR-Wert kann das verfügbare Guthaben nicht überschreiten.\nDie Anzahl der Nachkommastellen muss kleiner oder gleich 12 sein";
   @override
-  String get xmr_available_balance => "XMR verfügbares Guthaben";
+  String get xmr_available_balance => "TUBE verfügbares Guthaben";
   @override
   String get trade_state_paid => "Bezahlt";
   @override
@@ -694,7 +694,7 @@ class $de extends S {
   @override
   String get all => "ALLE";
   @override
-  String get xmr_full_balance => "XMR Volle Balance";
+  String get xmr_full_balance => "TUBE Volle Balance";
   @override
   String get incoming => "Eingehend";
   @override
@@ -1016,7 +1016,7 @@ class $hi extends S {
   @override
   String get contact => "संपर्क करें";
   @override
-  String get openalias_alert_title => "XMR प्राप्तकर्ता का पता लगाया";
+  String get openalias_alert_title => "TUBE प्राप्तकर्ता का पता लगाया";
   @override
   String get auth_store_incorrect_password => "गलत पिन";
   @override
@@ -1042,7 +1042,7 @@ class $hi extends S {
   @override
   String get restore_seed_keys_restore => "बीज / कुंजी पुनर्स्थापित करें";
   @override
-  String get xmr_hidden => "XMR छिपा हुआ";
+  String get xmr_hidden => "TUBE छिपा हुआ";
   @override
   String get send_xmr => "संदेश XMR";
   @override
@@ -1128,7 +1128,7 @@ class $hi extends S {
   @override
   String get error_text_xmr => "एक्सएमआर मूल्य उपलब्ध शेष राशि से अधिक नहीं हो सकता.\nअंश अंकों की संख्या 12 से कम या इसके बराबर होनी चाहिए";
   @override
-  String get xmr_available_balance => "XMR उपलब्ध शेष राशि";
+  String get xmr_available_balance => "TUBE उपलब्ध शेष राशि";
   @override
   String get trade_state_paid => "भुगतान किया है";
   @override
@@ -1262,7 +1262,7 @@ class $hi extends S {
   @override
   String get all => "सब";
   @override
-  String get xmr_full_balance => "XMR पूर्ण संतुलन";
+  String get xmr_full_balance => "TUBE पूर्ण संतुलन";
   @override
   String get incoming => "आने वाली";
   @override
@@ -1610,7 +1610,7 @@ class $ru extends S {
   @override
   String get restore_seed_keys_restore => "Восстановить из мнемонической фразы/ключей";
   @override
-  String get xmr_hidden => "XMR Скрыто";
+  String get xmr_hidden => "TUBE Скрыто";
   @override
   String get send_xmr => "Отправить XMR";
   @override
@@ -2152,7 +2152,7 @@ class $ko extends S {
   @override
   String get contact => "접촉";
   @override
-  String get openalias_alert_title => "XMR 수신자 감지";
+  String get openalias_alert_title => "TUBE 수신자 감지";
   @override
   String get auth_store_incorrect_password => "잘못된 PIN";
   @override
@@ -2178,7 +2178,7 @@ class $ko extends S {
   @override
   String get restore_seed_keys_restore => "종자 / 키 복원";
   @override
-  String get xmr_hidden => "XMR 숨김";
+  String get xmr_hidden => "TUBE 숨김";
   @override
   String get send_xmr => "보내다 XMR";
   @override
@@ -2262,9 +2262,9 @@ class $ko extends S {
   @override
   String get trade_state_complete => "완전한";
   @override
-  String get error_text_xmr => "XMR 값은 사용 가능한 잔액을 초과 할 수 없습니다.\n소수 자릿수는 12 이하 여야합니다";
+  String get error_text_xmr => "TUBE 값은 사용 가능한 잔액을 초과 할 수 없습니다.\n소수 자릿수는 12 이하 여야합니다";
   @override
-  String get xmr_available_balance => "XMR 사용 가능한 잔액";
+  String get xmr_available_balance => "TUBE 사용 가능한 잔액";
   @override
   String get trade_state_paid => "유료";
   @override
@@ -2398,7 +2398,7 @@ class $ko extends S {
   @override
   String get all => "모든";
   @override
-  String get xmr_full_balance => "XMR 풀 밸런스";
+  String get xmr_full_balance => "TUBE 풀 밸런스";
   @override
   String get incoming => "들어오는";
   @override
@@ -3314,7 +3314,7 @@ class $uk extends S {
   @override
   String get restore_seed_keys_restore => "Відновити за допомогою мнемонічної фрази/ключів";
   @override
-  String get xmr_hidden => "XMR Приховано";
+  String get xmr_hidden => "TUBE Приховано";
   @override
   String get send_xmr => "Відправити XMR";
   @override
@@ -4454,7 +4454,7 @@ class $pl extends S {
   @override
   String get restore_seed_keys_restore => "Przywracanie nasion / kluczy";
   @override
-  String get xmr_hidden => "XMR Ukryty";
+  String get xmr_hidden => "TUBE Ukryty";
   @override
   String get send_xmr => "Wysłać XMR";
   @override
@@ -4540,7 +4540,7 @@ class $pl extends S {
   @override
   String get error_text_xmr => "Wartość XMR nie może przekraczać dostępnego salda.\nLiczba cyfr ułamkowych musi być mniejsza lub równa 12";
   @override
-  String get xmr_available_balance => "XMR Dostępne saldo";
+  String get xmr_available_balance => "TUBE Dostępne saldo";
   @override
   String get trade_state_paid => "Płatny";
   @override
@@ -4674,7 +4674,7 @@ class $pl extends S {
   @override
   String get all => "WSZYSTKO";
   @override
-  String get xmr_full_balance => "XMR Pełna równowaga";
+  String get xmr_full_balance => "TUBE Pełna równowaga";
   @override
   String get incoming => "Przychodzące";
   @override
@@ -5022,7 +5022,7 @@ class $es extends S {
   @override
   String get restore_seed_keys_restore => "Restauración de semillas / llaves";
   @override
-  String get xmr_hidden => "XMR Oculto";
+  String get xmr_hidden => "TUBE Oculto";
   @override
   String get send_xmr => "Enviar XMR";
   @override
@@ -5108,7 +5108,7 @@ class $es extends S {
   @override
   String get error_text_xmr => "El valor XMR no puede exceder el saldo disponible.\nTEl número de dígitos de fracción debe ser menor o igual a 12";
   @override
-  String get xmr_available_balance => "XMR Available Balance";
+  String get xmr_available_balance => "TUBE Available Balance";
   @override
   String get trade_state_paid => "Pagado";
   @override
@@ -5242,7 +5242,7 @@ class $es extends S {
   @override
   String get all => "TODOS";
   @override
-  String get xmr_full_balance => "XMR Saldo disponible";
+  String get xmr_full_balance => "TUBE Saldo disponible";
   @override
   String get incoming => "Entrante";
   @override
@@ -5590,7 +5590,7 @@ class $nl extends S {
   @override
   String get restore_seed_keys_restore => "Zaad / sleutels herstellen";
   @override
-  String get xmr_hidden => "XMR Verborgen";
+  String get xmr_hidden => "TUBE Verborgen";
   @override
   String get send_xmr => "Sturen XMR";
   @override
@@ -5676,7 +5676,7 @@ class $nl extends S {
   @override
   String get error_text_xmr => "XMR-waarde kan het beschikbare saldo niet overschrijden.\nHet aantal breukcijfers moet kleiner zijn dan of gelijk zijn aan 12";
   @override
-  String get xmr_available_balance => "XMR Beschikbaar saldo";
+  String get xmr_available_balance => "TUBE Beschikbaar saldo";
   @override
   String get trade_state_paid => "Betaald";
   @override
@@ -5810,7 +5810,7 @@ class $nl extends S {
   @override
   String get all => "ALLE";
   @override
-  String get xmr_full_balance => "XMR Volledig saldo";
+  String get xmr_full_balance => "TUBE Volledig saldo";
   @override
   String get incoming => "inkomend";
   @override
@@ -6158,7 +6158,7 @@ class $zh extends S {
   @override
   String get restore_seed_keys_restore => "种子/密钥还原";
   @override
-  String get xmr_hidden => "XMR Hidden";
+  String get xmr_hidden => "TUBE Hidden";
   @override
   String get send_xmr => "发送 XMR";
   @override
@@ -6244,7 +6244,7 @@ class $zh extends S {
   @override
   String get error_text_xmr => "XMR值不能超过可用余额.\n小数位数必须小于或等于12";
   @override
-  String get xmr_available_balance => "XMR 可用余额 ";
+  String get xmr_available_balance => "TUBE 可用余额 ";
   @override
   String get trade_state_paid => "已付费";
   @override
@@ -6378,7 +6378,7 @@ class $zh extends S {
   @override
   String get all => "所有";
   @override
-  String get xmr_full_balance => "XMR 全部余额";
+  String get xmr_full_balance => "TUBE 全部余额";
   @override
   String get incoming => "传入";
   @override

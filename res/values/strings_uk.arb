@@ -30,7 +30,7 @@
   "wallet_menu" : "Меню гаманця",
   "Blocks_remaining" : "${status} Залишилось блоків",
   "please_try_to_connect_to_another_node" : "Будь ласка, спробуйте підключитися до іншого вузлу",
-  "xmr_hidden" : "XMR Приховано",
+  "xmr_hidden" : "TUBE Приховано",
   "xmr_available_balance" : "Доступний XMR баланс",
   "xmr_full_balance" : "Весь XMR баланс",
   "send" : "Відправити",

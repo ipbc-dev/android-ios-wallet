@@ -30,7 +30,7 @@
   "wallet_menu" : "Меню кошелька",
   "Blocks_remaining" : "${status} Осталось блоков",
   "please_try_to_connect_to_another_node" : "Пожалуйста, попробуйте подключиться к другой ноде",
-  "xmr_hidden" : "XMR Скрыто",
+  "xmr_hidden" : "TUBE Скрыто",
   "xmr_available_balance" : "Доступный XMR баланс",
   "xmr_full_balance" : "Весь XMR баланс",
   "send" : "Отправить",

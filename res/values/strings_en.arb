@@ -30,9 +30,9 @@
   "wallet_menu" : "Menu",
   "Blocks_remaining" : "${status} Blocks Remaining",
   "please_try_to_connect_to_another_node" : "Please try to connect to another node",
-  "xmr_hidden" : "XMR Hidden",
-  "xmr_available_balance" : "XMR Available Balance",
-  "xmr_full_balance" : "XMR Full Balance",
+  "xmr_hidden" : "TUBE Hidden",
+  "xmr_available_balance" : "TUBE Available Balance",
+  "xmr_full_balance" : "TUBE Full Balance",
   "send" : "Send",
   "receive" : "Receive",
   "transactions" : "Transactions",
@@ -275,7 +275,7 @@
   "error_text_node_address" : "Please enter a iPv4 address",
   "error_text_node_port" : "Node port can only contain numbers between 0 and 65535",
   "error_text_payment_id" : "Payment ID can only contain from 16 to 64 chars in hex",
-  "error_text_xmr" : "XMR value can't exceed available balance.\nThe number of fraction digits must be less or equal to 12",
+  "error_text_xmr" : "TUBE value can't exceed available balance.\nThe number of fraction digits must be less or equal to 12",
   "error_text_fiat" : "Value of amount can't exceed available balance.\nThe number of fraction digits must be less or equal to 2",
   "error_text_subaddress_name" : "Subaddress name can't contain ` , ' \" symbols\nand must be between 1 and 20 characters long",
   "error_text_amount" : "Amount can only contain numbers",
@@ -348,6 +348,6 @@
   "biometric_auth_reason" : "Scan your fingerprint to authenticate",
   "version" : "Version ${currentVersion}",
 
-  "openalias_alert_title" : "XMR Recipient Detected",
+  "openalias_alert_title" : "TUBE Recipient Detected",
   "openalias_alert_content" : "You will be sending funds to\n${recipient_name}"
 }
