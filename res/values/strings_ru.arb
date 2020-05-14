@@ -94,7 +94,7 @@
   "transaction_sent" : "Tранзакция отправлена!",
   "expired" : "Истекает",
   "time" : "${minutes}мин ${seconds}сек",
-  "send_xmr" : "Отправить XMR",
+  "send_xmr" : "Отправить TUBE",
 
   "faq" : "FAQ",
 

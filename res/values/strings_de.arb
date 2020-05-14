@@ -94,7 +94,7 @@
   "transaction_sent" : "Transaktion gesendet!",
   "expired" : "Abgelaufen",
   "time" : "${minutes}m ${seconds}s",
-  "send_xmr" : "Senden XMR",
+  "send_xmr" : "Senden TUBE",
 
   "faq" : "FAQ",
 
@@ -348,6 +348,6 @@
   "biometric_auth_reason" : "Scannen Sie Ihren Fingerabdruck zur Authentifizierung",
   "version" : "Ausführung ${currentVersion}",
 
-  "openalias_alert_title" : "XMR-Empfänger erkannt",
+  "openalias_alert_title" : "TUBE-Empfänger erkannt",
   "openalias_alert_content" : "Sie senden Geld an\n${recipient_name}"
 }

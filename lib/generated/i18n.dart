@@ -164,7 +164,7 @@ class S implements WidgetsLocalizations {
   String get send_monero_address => "Monero address";
   String get send_payment_id => "Payment ID (optional)";
   String get send_title => "Send Monero";
-  String get send_xmr => "Send XMR";
+  String get send_xmr => "Send TUBE";
   String get send_your_wallet => "Your wallet";
   String get sending => "Sending";
   String get sent => "Sent";
@@ -448,7 +448,7 @@ class $de extends S {
   @override
   String get contact => "Kontakt";
   @override
-  String get openalias_alert_title => "XMR-Empfänger erkannt";
+  String get openalias_alert_title => "TUBE-Empfänger erkannt";
   @override
   String get auth_store_incorrect_password => "Falsches PIN";
   @override
@@ -476,7 +476,7 @@ class $de extends S {
   @override
   String get xmr_hidden => "TUBE versteckt";
   @override
-  String get send_xmr => "Senden XMR";
+  String get send_xmr => "Senden TUBE";
   @override
   String get exchange => "Austausch";
   @override
@@ -1044,7 +1044,7 @@ class $hi extends S {
   @override
   String get xmr_hidden => "TUBE छिपा हुआ";
   @override
-  String get send_xmr => "संदेश XMR";
+  String get send_xmr => "संदेश TUBE";
   @override
   String get exchange => "अदला बदली";
   @override
@@ -1612,7 +1612,7 @@ class $ru extends S {
   @override
   String get xmr_hidden => "TUBE Скрыто";
   @override
-  String get send_xmr => "Отправить XMR";
+  String get send_xmr => "Отправить TUBE";
   @override
   String get exchange => "Обмен";
   @override
@@ -2180,7 +2180,7 @@ class $ko extends S {
   @override
   String get xmr_hidden => "TUBE 숨김";
   @override
-  String get send_xmr => "보내다 XMR";
+  String get send_xmr => "보내다 TUBE";
   @override
   String get exchange => "교환";
   @override
@@ -2748,7 +2748,7 @@ class $pt extends S {
   @override
   String get xmr_hidden => "Esconder saldo";
   @override
-  String get send_xmr => "Enviar XMR";
+  String get send_xmr => "Enviar TUBE";
   @override
   String get exchange => "Trocar";
   @override
@@ -3316,7 +3316,7 @@ class $uk extends S {
   @override
   String get xmr_hidden => "TUBE Приховано";
   @override
-  String get send_xmr => "Відправити XMR";
+  String get send_xmr => "Відправити TUBE";
   @override
   String get exchange => "Обмін";
   @override
@@ -3856,7 +3856,7 @@ class $ja extends S {
   @override
   String get contact => "接触";
   @override
-  String get openalias_alert_title => "XMR受信者が検出されました";
+  String get openalias_alert_title => "TUBE受信者が検出されました";
   @override
   String get auth_store_incorrect_password => "間違ったPIN";
   @override
@@ -3882,9 +3882,9 @@ class $ja extends S {
   @override
   String get restore_seed_keys_restore => "シード/キーの復元";
   @override
-  String get xmr_hidden => "XMR非表示";
+  String get xmr_hidden => "TUBE非表示";
   @override
-  String get send_xmr => "送る XMR";
+  String get send_xmr => "送る TUBE";
   @override
   String get exchange => "交換する";
   @override
@@ -3966,9 +3966,9 @@ class $ja extends S {
   @override
   String get trade_state_complete => "コンプリート";
   @override
-  String get error_text_xmr => "XMR値は利用可能な残高を超えることはできません.\n小数桁数は12以下でなければなりません";
+  String get error_text_xmr => "TUBE値は利用可能な残高を超えることはできません.\n小数桁数は12以下でなければなりません";
   @override
-  String get xmr_available_balance => "XMR利用可能残高";
+  String get xmr_available_balance => "TUBE利用可能残高";
   @override
   String get trade_state_paid => "有料";
   @override
@@ -4102,7 +4102,7 @@ class $ja extends S {
   @override
   String get all => "すべて";
   @override
-  String get xmr_full_balance => "XMRフルバランス";
+  String get xmr_full_balance => "TUBEフルバランス";
   @override
   String get incoming => "着信";
   @override
@@ -4428,7 +4428,7 @@ class $pl extends S {
   @override
   String get contact => "Kontakt";
   @override
-  String get openalias_alert_title => "Wykryto odbiorcę XMR";
+  String get openalias_alert_title => "Wykryto odbiorcę TUBE";
   @override
   String get auth_store_incorrect_password => "Niepoprawny PIN";
   @override
@@ -4456,7 +4456,7 @@ class $pl extends S {
   @override
   String get xmr_hidden => "TUBE Ukryty";
   @override
-  String get send_xmr => "Wysłać XMR";
+  String get send_xmr => "Wysłać TUBE";
   @override
   String get exchange => "Wymieniać się";
   @override
@@ -5024,7 +5024,7 @@ class $es extends S {
   @override
   String get xmr_hidden => "TUBE Oculto";
   @override
-  String get send_xmr => "Enviar XMR";
+  String get send_xmr => "Enviar TUBE";
   @override
   String get exchange => "Intercambiar";
   @override
@@ -5564,7 +5564,7 @@ class $nl extends S {
   @override
   String get contact => "Contact";
   @override
-  String get openalias_alert_title => "XMR-ontvanger gedetecteerd";
+  String get openalias_alert_title => "TUBE-ontvanger gedetecteerd";
   @override
   String get auth_store_incorrect_password => "Incorrect PIN";
   @override
@@ -5592,7 +5592,7 @@ class $nl extends S {
   @override
   String get xmr_hidden => "TUBE Verborgen";
   @override
-  String get send_xmr => "Sturen XMR";
+  String get send_xmr => "Sturen TUBE";
   @override
   String get exchange => "Uitwisseling";
   @override
@@ -5674,7 +5674,7 @@ class $nl extends S {
   @override
   String get trade_state_complete => "Compleet";
   @override
-  String get error_text_xmr => "XMR-waarde kan het beschikbare saldo niet overschrijden.\nHet aantal breukcijfers moet kleiner zijn dan of gelijk zijn aan 12";
+  String get error_text_xmr => "TUBE-waarde kan het beschikbare saldo niet overschrijden.\nHet aantal breukcijfers moet kleiner zijn dan of gelijk zijn aan 12";
   @override
   String get xmr_available_balance => "TUBE Beschikbaar saldo";
   @override
@@ -6160,7 +6160,7 @@ class $zh extends S {
   @override
   String get xmr_hidden => "TUBE Hidden";
   @override
-  String get send_xmr => "发送 XMR";
+  String get send_xmr => "发送 TUBE";
   @override
   String get exchange => "交换";
   @override
@@ -6242,7 +6242,7 @@ class $zh extends S {
   @override
   String get trade_state_complete => "完成";
   @override
-  String get error_text_xmr => "XMR值不能超过可用余额.\n小数位数必须小于或等于12";
+  String get error_text_xmr => "TUBE值不能超过可用余额.\n小数位数必须小于或等于12";
   @override
   String get xmr_available_balance => "TUBE 可用余额 ";
   @override

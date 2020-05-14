@@ -94,7 +94,7 @@
   "transaction_sent" : "거래가 전송되었습니다!",
   "expired" : "만료",
   "time" : "${minutes}m ${seconds}s",
-  "send_xmr" : "보내다 XMR",
+  "send_xmr" : "보내다 TUBE",
 
   "faq" : "FAQ",
 

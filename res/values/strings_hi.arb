@@ -94,7 +94,7 @@
   "transaction_sent" : "भेजा गया लेन-देन",
   "expired" : "समय सीमा समाप्त",
   "time" : "${minutes}m ${seconds}s",
-  "send_xmr" : "संदेश XMR",
+  "send_xmr" : "संदेश TUBE",
 
   "faq" : "FAQ",
 

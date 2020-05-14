@@ -30,9 +30,9 @@
   "wallet_menu" : "ウォレットメニュー",
   "Blocks_remaining" : "${status} 残りのブロック",
   "please_try_to_connect_to_another_node" : "別のノードに接続してみてください",
-  "xmr_hidden" : "XMR非表示",
-  "xmr_available_balance" : "XMR利用可能残高",
-  "xmr_full_balance" : "XMRフルバランス",
+  "xmr_hidden" : "TUBE非表示",
+  "xmr_available_balance" : "TUBE利用可能残高",
+  "xmr_full_balance" : "TUBEフルバランス",
   "send" : "送る",
   "receive" : "受け取る",
   "transactions" : "取引",
@@ -94,7 +94,7 @@
   "transaction_sent" : "トランザクションが送信されました！",
   "expired" : "期限切れ",
   "time" : "${minutes}m ${seconds}s",
-  "send_xmr" : "送る XMR",
+  "send_xmr" : "送る TUBE",
 
   "faq" : "FAQ",
 
@@ -275,7 +275,7 @@
   "error_text_node_address" : "iPv4アドレスを入力してください",
   "error_text_node_port" : "ノードポートには、0〜65535の数字のみを含めることができます",
   "error_text_payment_id" : "支払いIDには、16進数で16〜64文字しか含めることができません",
-  "error_text_xmr" : "XMR値は利用可能な残高を超えることはできません.\n小数桁数は12以下でなければなりません",
+  "error_text_xmr" : "TUBE値は利用可能な残高を超えることはできません.\n小数桁数は12以下でなければなりません",
   "error_text_fiat" : "金額は利用可能な残高を超えることはできません.\n小数桁の数は2以下でなければなりません",
   "error_text_subaddress_name" : "サブアドレス名に含めることはできません` , ' \" シンボル\n1〜20文字の長さである必要があります",
   "error_text_amount" : "金額には数字のみを含めることができます",
@@ -348,6 +348,6 @@
   "biometric_auth_reason" : "प指紋をスキャンして認証する",
   "version" : "バージョン ${currentVersion}",
 
-  "openalias_alert_title" : "XMR受信者が検出されました",
+  "openalias_alert_title" : "TUBE受信者が検出されました",
   "openalias_alert_content" : "に送金します\n${recipient_name}"
 }

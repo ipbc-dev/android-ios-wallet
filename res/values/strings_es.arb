@@ -94,7 +94,7 @@
   "transaction_sent" : "Transacción enviada!",
   "expired" : "Muerto",
   "time" : "${minutes}m ${seconds}s",
-  "send_xmr" : "Enviar XMR",
+  "send_xmr" : "Enviar TUBE",
 
   "faq" : "FAQ",
 
