@@ -44,15 +44,15 @@
     "answer" : "交易哈希或交易ID是识别任何交易的唯一方式。 每个交易都有自己的哈希。 如果您需要向某人提供交易哈希，只需转到电子钱包主屏幕，点击交易，长按顶部，然后选择复制。\n"
   },
   {
-    "question" : "我没有收到我的XMR！ 我能做什么？",
+    "question" : "我没有收到我的TUBE！ 我能做什么？",
     "answer" : "如果您未收到门罗币，则可能需要点击•••菜单，然后点击重新连接。 如果这不起作用，请进入设置菜单，点击“当前节点”框，然后选择旁边带有绿点的节点。\n"
   },
   {
     "question" : "我没有从应用程序中的交易所收到硬币。 我能做什么？",
-    "answer" : "如果您对交易所有疑问，最好的选择是与交易所本身联系。 我们与XMR.TO，Morph和ChangeNow合作，因此最好的选择是访问http：//xmr.to、http：//changenow.io或http://morphtoken.com，并与他们的支持部门联系。\n"
+    "answer" : "如果您对交易所有疑问，最好的选择是与交易所本身联系。 我们与TUBE.TO，Morph和ChangeNow合作，因此最好的选择是访问http：//TUBE.to、http：//changenow.io或http://morphtoken.com，并与他们的支持部门联系。\n"
   },
   {
     "question" : "如何联系蛋糕钱包支持？",
-    "answer" : "电子邮件support@cakewallet.com，通过@cakewallet_bot加入电报，或在@CakeWalletXMR上发布推文！\n"
+    "answer" : "电子邮件support@cakewallet.com，通过@cakewallet_bot加入电报，或在@CakeWalletTUBE上发布推文！\n"
   }
 ]

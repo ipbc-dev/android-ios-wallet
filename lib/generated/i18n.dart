@@ -558,7 +558,7 @@ class $de extends S {
   @override
   String get trade_state_complete => "Komplett";
   @override
-  String get error_text_xmr => "Der XMR-Wert kann das verfügbare Guthaben nicht überschreiten.\nDie Anzahl der Nachkommastellen muss kleiner oder gleich 12 sein";
+  String get error_text_xmr => "Der TUBE-Wert kann das verfügbare Guthaben nicht überschreiten.\nDie Anzahl der Nachkommastellen muss kleiner oder gleich 12 sein";
   @override
   String get xmr_available_balance => "TUBE verfügbares Guthaben";
   @override
@@ -1584,7 +1584,7 @@ class $ru extends S {
   @override
   String get contact => "Контакт";
   @override
-  String get openalias_alert_title => "Получатель XMR обнаружен";
+  String get openalias_alert_title => "Получатель TUBE обнаружен";
   @override
   String get auth_store_incorrect_password => "Некорректный PIN";
   @override
@@ -1694,9 +1694,9 @@ class $ru extends S {
   @override
   String get trade_state_complete => "Выполнена";
   @override
-  String get error_text_xmr => "Значение XMR не может превышать доступный баланс.\nКоличество цифр после запятой должно быть меньше или равно 12";
+  String get error_text_xmr => "Значение TUBE не может превышать доступный баланс.\nКоличество цифр после запятой должно быть меньше или равно 12";
   @override
-  String get xmr_available_balance => "Доступный XMR баланс";
+  String get xmr_available_balance => "Доступный TUBE баланс";
   @override
   String get trade_state_paid => "Оплаченная";
   @override
@@ -1830,7 +1830,7 @@ class $ru extends S {
   @override
   String get all => "ВСЕ";
   @override
-  String get xmr_full_balance => "Весь XMR баланс";
+  String get xmr_full_balance => "Весь TUBE баланс";
   @override
   String get incoming => "Входящие";
   @override
@@ -2720,7 +2720,7 @@ class $pt extends S {
   @override
   String get contact => "Contato";
   @override
-  String get openalias_alert_title => "Destinatário XMR detectado";
+  String get openalias_alert_title => "Destinatário TUBE detectado";
   @override
   String get auth_store_incorrect_password => "PIN incorreto";
   @override
@@ -2830,9 +2830,9 @@ class $pt extends S {
   @override
   String get trade_state_complete => "Finalizada";
   @override
-  String get error_text_xmr => "A quantia em XMR não pode exceder o saldo disponível.\nTO número de dígitos decimais deve ser menor ou igual a 12";
+  String get error_text_xmr => "A quantia em TUBE não pode exceder o saldo disponível.\nTO número de dígitos decimais deve ser menor ou igual a 12";
   @override
-  String get xmr_available_balance => "Saldo XMR disponível";
+  String get xmr_available_balance => "Saldo TUBE disponível";
   @override
   String get trade_state_paid => "Paga";
   @override
@@ -2966,7 +2966,7 @@ class $pt extends S {
   @override
   String get all => "TUDO";
   @override
-  String get xmr_full_balance => "Saldo XMR total";
+  String get xmr_full_balance => "Saldo TUBE total";
   @override
   String get incoming => "Recebidas";
   @override
@@ -3288,7 +3288,7 @@ class $uk extends S {
   @override
   String get contact => "Контакт";
   @override
-  String get openalias_alert_title => "Отримувача XMR виявлено";
+  String get openalias_alert_title => "Отримувача TUBE виявлено";
   @override
   String get auth_store_incorrect_password => "Некоректний PIN";
   @override
@@ -3398,9 +3398,9 @@ class $uk extends S {
   @override
   String get trade_state_complete => "Завершено";
   @override
-  String get error_text_xmr => "Значення XMR не може перевищувати доступний баланс.\nКількість цифр після коми повинно бути меншим або дорівнювати 12";
+  String get error_text_xmr => "Значення TUBE не може перевищувати доступний баланс.\nКількість цифр після коми повинно бути меншим або дорівнювати 12";
   @override
-  String get xmr_available_balance => "Доступний XMR баланс";
+  String get xmr_available_balance => "Доступний TUBE баланс";
   @override
   String get trade_state_paid => "Оплачена";
   @override
@@ -3534,7 +3534,7 @@ class $uk extends S {
   @override
   String get all => "ВСЕ";
   @override
-  String get xmr_full_balance => "Весь XMR баланс";
+  String get xmr_full_balance => "Весь TUBE баланс";
   @override
   String get incoming => "Вхідні";
   @override
@@ -4538,7 +4538,7 @@ class $pl extends S {
   @override
   String get trade_state_complete => "Kompletny";
   @override
-  String get error_text_xmr => "Wartość XMR nie może przekraczać dostępnego salda.\nLiczba cyfr ułamkowych musi być mniejsza lub równa 12";
+  String get error_text_xmr => "Wartość TUBE nie może przekraczać dostępnego salda.\nLiczba cyfr ułamkowych musi być mniejsza lub równa 12";
   @override
   String get xmr_available_balance => "TUBE Dostępne saldo";
   @override
@@ -4996,7 +4996,7 @@ class $es extends S {
   @override
   String get contact => "Contacto";
   @override
-  String get openalias_alert_title => "Destinatario XMR detectado";
+  String get openalias_alert_title => "Destinatario TUBE detectado";
   @override
   String get auth_store_incorrect_password => "Contraseña PIN";
   @override
@@ -5106,7 +5106,7 @@ class $es extends S {
   @override
   String get trade_state_complete => "Completar";
   @override
-  String get error_text_xmr => "El valor XMR no puede exceder el saldo disponible.\nTEl número de dígitos de fracción debe ser menor o igual a 12";
+  String get error_text_xmr => "El valor TUBE no puede exceder el saldo disponible.\nTEl número de dígitos de fracción debe ser menor o igual a 12";
   @override
   String get xmr_available_balance => "TUBE Available Balance";
   @override
@@ -6132,7 +6132,7 @@ class $zh extends S {
   @override
   String get contact => "联系";
   @override
-  String get openalias_alert_title => "檢測到XMR收件人";
+  String get openalias_alert_title => "檢測到TUBE收件人";
   @override
   String get auth_store_incorrect_password => "PIN码错误";
   @override

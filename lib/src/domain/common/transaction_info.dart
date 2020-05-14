@@ -41,7 +41,7 @@ class TransactionInfo {
 
   String _fiatAmount;
 
-  String amountFormatted() => '${formatAmount(moneroAmountToString(amount: amount))} XMR';
+  String amountFormatted() => '${formatAmount(moneroAmountToString(amount: amount))} TUBE';
 
   String fiatAmount() => _fiatAmount ?? '';
 

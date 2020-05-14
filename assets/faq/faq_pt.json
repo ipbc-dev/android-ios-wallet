@@ -44,15 +44,15 @@
     "answer" : "Um hash de transação, ou ID da transação, é uma maneira exclusiva de identificar qualquer transação. Cada transação possui seu próprio hash. Se você precisar fornecer um hash de transação a alguém, vá para a tela principal da Carteira virtual, toque na transação, pressione e segure na seção superior e selecione Copiar.\n"
   },
   {
-    "question" : "Não recebi meu XMR! O que eu posso fazer?",
+    "question" : "Não recebi meu TUBE! O que eu posso fazer?",
     "answer" : "Se você não recebeu seu Monero, toque no menu ••• e clique em Reconectar. Se isso não funcionar, entre no menu de configurações, toque na caixa 'Nó atual' e selecione um nó com um ponto verde próximo a ele.\n"
   },
   {
     "question" : "Não recebi minhas moedas da troca no aplicativo. O que eu posso fazer?",
-    "answer" : "Se você estiver tendo problemas com uma troca, a melhor opção é entrar em contato com a troca. Somos parceiros do XMR.TO, Morph e ChangeNow, portanto, sua melhor aposta é ir para http://xmr.to, http://changenow.io ou http://morphtoken.com e entrar em contato com o suporte deles.\n"
+    "answer" : "Se você estiver tendo problemas com uma troca, a melhor opção é entrar em contato com a troca. Somos parceiros do TUBE.TO, Morph e ChangeNow, portanto, sua melhor aposta é ir para http://TUBE.to, http://changenow.io ou http://morphtoken.com e entrar em contato com o suporte deles.\n"
   },
   {
     "question" : "Como entro em contato com o suporte da Cake Wallet?",
-    "answer" : "Envie um e-mail para support@cakewallet.com, participe do Telegram em @cakewallet_bot ou envie um tweet para @CakeWalletXMR!\n"
+    "answer" : "Envie um e-mail para support@cakewallet.com, participe do Telegram em @cakewallet_bot ou envie um tweet para @CakeWalletTUBE!\n"
   }
 ]

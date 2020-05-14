@@ -44,15 +44,15 @@
     "answer" : "A transaction hash, or transaction ID, is a unique way to identify any transaction. Each transaction has its own hash. If you need to provide a transaction hash to somebody, just go to the main Wallet screen, tap on the transaction, long-press on the top section, and select Copy.\n"
   },
   {
-    "question" : "I didn't receive my XMR! What can I do?",
+    "question" : "I didn't receive my TUBE! What can I do?",
     "answer" : "If you didn't receive your Monero, you might want to tap the ••• menu and hit Reconnect. If that doesn't work, go into the settings menu, tap the 'Current Node' box, and select a node with a green dot next to it.\n"
   },
   {
     "question" : "I didn't receive my coins from the exchange in the app. What can I do?",
-    "answer" : "If you're having issues with an exchange, the best option is to contact the exchange itself. We're partnered with XMR.TO, Morph and ChangeNow, so your best bet is to go to http://xmr.to, http://changenow.io, or http://morphtoken.com and contact their support.\n"
+    "answer" : "If you're having issues with an exchange, the best option is to contact the exchange itself. We're partnered with TUBE.TO, Morph and ChangeNow, so your best bet is to go to http://TUBE.to, http://changenow.io, or http://morphtoken.com and contact their support.\n"
   },
   {
     "question" : "How do I contact Cake Wallet support?",
-    "answer" : "Email support@cakewallet.com, join the Telegram at @cakewallet_bot, or tweet @CakeWalletXMR!\n"
+    "answer" : "Email support@cakewallet.com, join the Telegram at @cakewallet_bot, or tweet @CakeWalletTUBE!\n"
   }
 ]

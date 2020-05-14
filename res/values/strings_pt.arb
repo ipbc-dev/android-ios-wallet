@@ -31,8 +31,8 @@
   "Blocks_remaining" : "${status} blocos restantes",
   "please_try_to_connect_to_another_node" : "Por favor, tente conectar-se a outro nó",
   "xmr_hidden" : "Esconder saldo",
-  "xmr_available_balance" : "Saldo XMR disponível",
-  "xmr_full_balance" : "Saldo XMR total",
+  "xmr_available_balance" : "Saldo TUBE disponível",
+  "xmr_full_balance" : "Saldo TUBE total",
   "send" : "Enviar",
   "receive" : "Receber",
   "transactions" : "Transações",
@@ -275,7 +275,7 @@
   "error_text_node_address" : "Digite um endereço iPv4",
   "error_text_node_port" : "A porta do nó deve conter apenas números entre 0 e 65535",
   "error_text_payment_id" : "O ID de pagamento pode conter apenas de 16 a 64 caracteres em hexadecimal",
-  "error_text_xmr" : "A quantia em XMR não pode exceder o saldo disponível.\nTO número de dígitos decimais deve ser menor ou igual a 12",
+  "error_text_xmr" : "A quantia em TUBE não pode exceder o saldo disponível.\nTO número de dígitos decimais deve ser menor ou igual a 12",
   "error_text_fiat" : "O valor do valor não pode exceder o saldo disponível.\nO número de dígitos decimais deve ser menor ou igual a 2",
   "error_text_subaddress_name" : "O nome do sub-endereço não pode conter os símbolos ` , ' \" \ne deve ter entre 1 e 20 caracteres",
   "error_text_amount" : "A quantia deve conter apenas números",
@@ -348,6 +348,6 @@
   "biometric_auth_reason" : "Digitalize sua impressão digital para autenticar",
   "version" : "Versão ${currentVersion}",
 
-  "openalias_alert_title" : "Destinatário XMR detectado",
+  "openalias_alert_title" : "Destinatário TUBE detectado",
   "openalias_alert_content" : "Você enviará fundos para\n${recipient_name}"
 }

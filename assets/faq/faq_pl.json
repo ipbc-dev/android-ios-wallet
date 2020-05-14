@@ -44,15 +44,15 @@
     "answer" : "Skrót transakcji lub ID transakcji to unikalny sposób identyfikowania każdej transakcji. Każda transakcja ma swój własny skrót. Jeśli chcesz podać komuś skrót transakcji, po prostu przejdź do głównego ekranu Portfela, dotknij transakcji, naciśnij długo w górnej części i wybierz Kopiuj.\n"
   },
   {
-    "question" : "Nie otrzymałem mojego XMR! Co mogę zrobić?",
+    "question" : "Nie otrzymałem mojego TUBE! Co mogę zrobić?",
     "answer" : "Jeśli nie otrzymałeś Monero, możesz dotknąć menu ••• i nacisnąć Połącz ponownie. Jeśli to nie zadziała, przejdź do menu ustawień, dotknij pola „Bieżący węzeł” i wybierz węzeł z zieloną kropką obok niego.\n"
   },
   {
     "question" : "Nie otrzymałem moich monet z wymiany w aplikacji. Co mogę zrobić?",
-    "answer" : "Jeśli masz problemy z wymianą, najlepszym rozwiązaniem jest skontaktowanie się z samą giełdą. Współpracujemy z XMR.TO, Morph i ChangeNow, więc najlepiej postawić się na stronie http://xmr.to, http://changenow.io lub http://morphtoken.com i skontaktować się z ich wsparciem.\n"
+    "answer" : "Jeśli masz problemy z wymianą, najlepszym rozwiązaniem jest skontaktowanie się z samą giełdą. Współpracujemy z TUBE.TO, Morph i ChangeNow, więc najlepiej postawić się na stronie http://TUBE.to, http://changenow.io lub http://morphtoken.com i skontaktować się z ich wsparciem.\n"
   },
   {
     "question" : "Jak skontaktować się z obsługą Cake Wallet?",
-    "answer" : "Wyślij e-mail na adres support@cakewallet.com, dołącz do telegramu na @cakewallet_bot lub tweet @CakeWalletXMR!\n"
+    "answer" : "Wyślij e-mail na adres support@cakewallet.com, dołącz do telegramu na @cakewallet_bot lub tweet @CakeWalletTUBE!\n"
   }
 ]

@@ -31,8 +31,8 @@
   "Blocks_remaining" : "${status} Осталось блоков",
   "please_try_to_connect_to_another_node" : "Пожалуйста, попробуйте подключиться к другой ноде",
   "xmr_hidden" : "TUBE Скрыто",
-  "xmr_available_balance" : "Доступный XMR баланс",
-  "xmr_full_balance" : "Весь XMR баланс",
+  "xmr_available_balance" : "Доступный TUBE баланс",
+  "xmr_full_balance" : "Весь TUBE баланс",
   "send" : "Отправить",
   "receive" : "Получить",
   "transactions" : "Транзакции",
@@ -275,7 +275,7 @@
   "error_text_node_address" : "Пожалуйста, введите iPv4 адрес",
   "error_text_node_port" : "Порт ноды может содержать только цифры от 0 до 65535",
   "error_text_payment_id" : "Идентификатор платежа может содержать от 16 до 64 символов в hex",
-  "error_text_xmr" : "Значение XMR не может превышать доступный баланс.\nКоличество цифр после запятой должно быть меньше или равно 12",
+  "error_text_xmr" : "Значение TUBE не может превышать доступный баланс.\nКоличество цифр после запятой должно быть меньше или равно 12",
   "error_text_fiat" : "Значение суммы не может превышать доступный баланс.\nКоличество цифр после запятой должно быть меньше или равно 2",
   "error_text_subaddress_name" : "Имя субадреса не может содержать ` , ' \" символы\nи должно быть от 1 до 20 символов в длину",
   "error_text_amount" : "Баланс может содержать только цифры",
@@ -348,6 +348,6 @@
   "biometric_auth_reason" : "Отсканируйте свой отпечаток пальца для аутентификации",
   "version" : "Версия ${currentVersion}",
 
-  "openalias_alert_title" : "Получатель XMR обнаружен",
+  "openalias_alert_title" : "Получатель TUBE обнаружен",
   "openalias_alert_content" : "Вы будете отправлять средства\n${recipient_name}"
 }

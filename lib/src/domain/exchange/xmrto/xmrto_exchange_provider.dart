@@ -20,7 +20,7 @@ class XMRTOExchangeProvider extends ExchangeProvider {
               from: CryptoCurrency.xmr, to: CryptoCurrency.btc, reverse: false)
         ]);
 
-  static const userAgent = 'CakeWallet/XMR iOS';
+  static const userAgent = 'CakeWallet/TUBE iOS';
   static const originalApiUri = 'https://xmr.to/api/v2/xmr2btc';
   static const proxyApiUri = 'https://xmrproxy.net/api/v2/xmr2btc';
   static const _orderParameterUriSufix = '/order_parameter_query';

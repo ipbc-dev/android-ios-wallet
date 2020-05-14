@@ -357,7 +357,7 @@ class SendFormState extends State<SendForm> {
                                   .backgroundColor,
                             )),
                         Text(
-                            '${calculateEstimatedFee(priority: settingsStore.transactionPriority)} XMR',
+                            '${calculateEstimatedFee(priority: settingsStore.transactionPriority)} TUBE',
                             style: TextStyle(
                               fontSize: 14,
                               fontWeight: FontWeight.w500,

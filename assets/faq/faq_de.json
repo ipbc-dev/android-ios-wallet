@@ -44,15 +44,15 @@
     "answer" : "Ein Transaktions-Hash oder eine Transaktions-ID ist eine eindeutige Methode, um eine Transaktion zu identifizieren. Jede Transaktion hat einen eigenen Hash. Wenn Sie jemandem einen Transaktions-Hash zur Verfügung stellen müssen, gehen Sie einfach zum Hauptbildschirm der Brieftasche, tippen Sie auf die Transaktion, halten Sie im oberen Bereich die Taste gedrückt und wählen Sie Kopieren.\n"
   },
   {
-    "question" : "Ich habe meine XMR nicht erhalten! Was kann ich tun?",
+    "question" : "Ich habe meine TUBE nicht erhalten! Was kann ich tun?",
     "answer" : "Wenn Sie Ihren Monero nicht erhalten haben, möchten Sie möglicherweise auf das Menü ••• tippen und auf Reconnect (Neu verbinden) klicken. Wenn dies nicht funktioniert, gehen Sie in das Einstellungsmenü, tippen Sie auf das Feld \"Aktueller Knoten\" und wählen Sie einen Knoten mit einem grünen Punkt daneben aus.\n"
   },
   {
     "question" : "Ich habe in der App keine Münzen aus dem Umtausch erhalten. Was kann ich tun?",
-    "answer" : "Wenn Sie Probleme mit einem Austausch haben, wenden Sie sich am besten an den Austausch. Wir sind eine Partnerschaft mit XMR.TO, Morph und ChangeNow eingegangen. Rufen Sie daher am besten http://xmr.to, http://changenow.io oder http://morphtoken.com auf und wenden Sie sich an deren Support.\n"
+    "answer" : "Wenn Sie Probleme mit einem Austausch haben, wenden Sie sich am besten an den Austausch. Wir sind eine Partnerschaft mit TUBE.TO, Morph und ChangeNow eingegangen. Rufen Sie daher am besten http://TUBE.to, http://changenow.io oder http://morphtoken.com auf und wenden Sie sich an deren Support.\n"
   },
   {
     "question" : "Wie kontaktiere ich den Cake Wallet-Support?",
-    "answer" : "Senden Sie eine E-Mail an support@cakewallet.com, schließen Sie sich dem Telegramm unter @cakewallet_bot an oder twittern Sie @CakeWalletXMR!\n"
+    "answer" : "Senden Sie eine E-Mail an support@cakewallet.com, schließen Sie sich dem Telegramm unter @cakewallet_bot an oder twittern Sie @CakeWalletTUBE!\n"
   }
 ]
