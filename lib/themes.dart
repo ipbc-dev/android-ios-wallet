@@ -6,6 +6,7 @@ class Themes {
   static final ThemeData lightTheme = ThemeData(
     //fontFamily: 'Lato',
     brightness: Brightness.light,
+    accentColor: PaletteBittube.primary,
     backgroundColor: Colors.white,
     scaffoldBackgroundColor: PaletteBittube.light,
     hintColor: Palette.lightBlue,
@@ -96,6 +97,7 @@ class Themes {
   static final ThemeData darkTheme = ThemeData(
     //fontFamily: 'Lato',
     brightness: Brightness.dark,
+    accentColor: PaletteBittube.primary,
     backgroundColor: PaletteBittube.dark,
     scaffoldBackgroundColor: PaletteDark.darkThemeBlack,
     hintColor: PaletteDark.darkThemeGrey,

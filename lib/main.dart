@@ -1,3 +1,4 @@
+import 'package:cake_wallet/palette.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -179,7 +180,7 @@ class MaterialAppWithTheme extends StatelessWidget {
     final balanceStore = Provider.of<BalanceStore>(context);
     final theme = Provider.of<ThemeChanger>(context);
     final statusBarColor =
-        settingsStore.isDarkTheme ? Colors.black : Colors.white;
+        settingsStore.isDarkTheme ? PaletteBittube.dark : PaletteBittube.light;
     final currentLanguage = Provider.of<Language>(context);
     final contacts = Provider.of<Box<Contact>>(context);
     final nodes = Provider.of<Box<Node>>(context);
