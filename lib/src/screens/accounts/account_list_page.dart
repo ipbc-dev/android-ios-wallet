@@ -22,11 +22,11 @@ class AccountListPage extends BasePage {
         width: 28.0,
         height: 28.0,
         decoration: BoxDecoration(
-            shape: BoxShape.circle, color: Theme.of(context).selectedRowColor),
+            shape: BoxShape.circle, color: PaletteBittube.primary),
         child: Stack(
           alignment: Alignment.center,
           children: <Widget>[
-            Icon(Icons.add, color: Palette.violet, size: 22.0),
+            Icon(Icons.add, color: Colors.white, size: 22.0),
             ButtonTheme(
               minWidth: 28.0,
               height: 28.0,
@@ -75,7 +75,7 @@ class AccountListPage extends BasePage {
                             account.label,
                             style: TextStyle(
                                 fontSize: 16.0,
-                                color: Theme.of(context)
+                                color: isCurrent ? Colors.white : Theme.of(context)
                                     .primaryTextTheme
                                     .headline
                                     .color),

@@ -68,7 +68,7 @@ class LoadingPrimaryButton extends StatelessWidget {
         minWidth: double.infinity,
         height: buttonHeight,
         child: FlatButton(
-          onPressed: (isLoading || isDisabled) ? null : onPressed,
+          onPressed: (isLoading || isDisabled) ? () async {}  : onPressed,
           color: color,
           shape: RoundedRectangleBorder(
               side: BorderSide(color: borderColor),

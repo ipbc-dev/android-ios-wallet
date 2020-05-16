@@ -6,16 +6,16 @@ class Themes {
   static final ThemeData lightTheme = ThemeData(
     //fontFamily: 'Lato',
     brightness: Brightness.light,
-    backgroundColor: PaletteBittube.light,
-    scaffoldBackgroundColor: Colors.white,
+    backgroundColor: Colors.white,
+    scaffoldBackgroundColor: PaletteBittube.light,
     hintColor: Palette.lightBlue,
     focusColor: Palette.lightGrey, // focused and enabled border color for text fields
     primaryTextTheme: TextTheme(
       title: TextStyle(
-        color: Colors.black
+        color: PaletteBittube.dark,
       ),
       caption: TextStyle(
-        color: Colors.black,
+        color: PaletteBittube.dark,
       ),
       button: TextStyle(
         color: Colors.white,
@@ -23,13 +23,13 @@ class Themes {
         decorationColor: PaletteBittube.primary // button primary color
       ),
       headline: TextStyle(
-        color: Colors.black // account list tile, contact page
+        color: PaletteBittube.dark, // account list tile, contact page
       ),
       subtitle: TextStyle(
         color: Palette.wildDarkBlue // filters
       ),
       subhead: TextStyle(
-        color: Colors.black // transaction raw, trade raw
+        color: PaletteBittube.dark, // transaction raw, trade raw
       ),
       overline: TextStyle(
         color: PaletteDark.darkThemeCloseButton // standart list row, transaction details
@@ -41,7 +41,7 @@ class Themes {
       color: Palette.switchBackground,
       borderColor: Palette.switchBorder
     ),
-    selectedRowColor: Palette.purple,
+    selectedRowColor: PaletteBittube.primary,
     dividerColor: Palette.lightGrey,
     dividerTheme: DividerThemeData(
       color: Palette.lightGrey
@@ -61,7 +61,7 @@ class Themes {
         decorationColor: PaletteBittube.primary // button indigo border color
       ),
       subtitle: TextStyle(
-        color: Colors.black,
+        color: PaletteBittube.dark,
         backgroundColor: Palette.lightLavender // send page border color
       ),
       headline: TextStyle(
@@ -113,7 +113,7 @@ class Themes {
         decorationColor: PaletteBittube.primary,// button pink border color
       ),
       headline: TextStyle(
-        color: PaletteDark.darkThemeGrey // account list tile, contact page
+        color: PaletteBittube.light, // account list tile, contact page
       ),
       subtitle: TextStyle(
         color: PaletteDark.darkThemeGrey // filters
@@ -131,7 +131,7 @@ class Themes {
       color: PaletteDark.switchBackground,
       borderColor: PaletteDark.darkThemeMidGrey
     ),
-    selectedRowColor: PaletteDark.darkThemeViolet,
+    selectedRowColor: PaletteBittube.primary,
     dividerColor: PaletteDark.darkThemeDarkGrey,
     dividerTheme: DividerThemeData(
       color: PaletteDark.darkThemeGreyWithOpacity

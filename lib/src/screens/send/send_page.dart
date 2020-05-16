@@ -433,9 +433,9 @@ class SendFormState extends State<SendForm> {
                             });
                       }
                     }
-                  : null,
+                  : () async {},
               text: S.of(context).send,
-              color: Theme.of(context).accentTextTheme.button.backgroundColor,
+              color: Theme.of(context).primaryTextTheme.button.backgroundColor,
               borderColor:
                   Theme.of(context).accentTextTheme.button.decorationColor,
               isLoading: sendStore.state is CreatingTransaction ||

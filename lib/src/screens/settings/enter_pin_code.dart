@@ -80,7 +80,7 @@ class EnterPinCodeState extends State<EnterPinCode> {
           children: <Widget>[
             Spacer(flex: 2),
             Text(S.of(context).enter_your_pin,
-                style: TextStyle(fontSize: 24, color: Palette.wildDarkBlue)),
+                style: TextStyle(fontSize: 24, color: Theme.of(context).primaryTextTheme.title.color)),
             Spacer(flex: 3),
             Container(
               width: 180,
@@ -97,7 +97,7 @@ class EnterPinCodeState extends State<EnterPinCode> {
                         shape: BoxShape.circle,
                         color:
                             isFilled ? PaletteBittube.primary : Colors.transparent,
-                        border: Border.all(color: Palette.wildDarkBlue),
+                        border: Border.all(color: Theme.of(context).buttonColor,
                       ));
                 }),
               ),

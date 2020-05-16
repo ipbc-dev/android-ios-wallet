@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class PaletteBittube{
   static const Color primary = Color.fromRGBO(0, 171, 255, 1.0);
   static const Color dark = Color.fromRGBO(39, 39, 39, 1.0);
+  static const Color darkMid = Color.fromRGBO(49, 49, 49, 1.0);
   static const Color light = Color.fromRGBO(242, 240, 240, 1.0);
 }
 
@@ -15,11 +16,11 @@ class Palette {
   static const Color indigo = Color.fromRGBO(232, 234, 246, 1.0);
   static const Color deepIndigo = Color.fromRGBO(197, 202, 233, 1.0);
   static const Color creamyGrey = Color.fromRGBO(245, 246, 249, 1.0);
-  static const Color deepPurple = Color.fromRGBO(124, 83, 240, 1.0);
+  static const Color deepPurple = PaletteBittube.primary;
   static const Color wildDarkBlue = Color.fromRGBO(155, 172, 197, 1.0);
   static const Color wildDarkBlueWithOpacity = Color.fromRGBO(155, 172, 197, 0.1);
-  static const Color lightGreen = Color.fromRGBO(52, 186, 204, 1.0);
-  static const Color darkPurple = Color.fromRGBO(124, 83, 240, 1.0);
+  static const Color lightGreen = PaletteBittube.primary;
+  static const Color darkPurple = PaletteBittube.primary;
   static const Color brightBlue = Color.fromRGBO(151, 226, 255, 0.6);
   static const Color cloudySky = Color.fromRGBO(121, 201, 233, 0.8);
   static const Color darkGrey = Color.fromRGBO(136, 155, 183, 0.21);
@@ -27,9 +28,9 @@ class Palette {
   static const Color shadowGreyWithOpacity = Color.fromRGBO(132, 141, 198, 0.05);
   static const Color blueGrey = Color.fromRGBO(103, 107, 141, 1.0);
   static const Color lightGrey2 = Color.fromRGBO(249, 249, 249, 1.0);
-  static const Color violet = Color.fromRGBO(138, 80, 255, 1.0);
-  static const Color lightViolet = Color.fromRGBO(131, 87, 255, 1);
-  static const Color cakeGreen = Color.fromRGBO(41, 187, 244, 1.0);
+  static const Color violet = PaletteBittube.primary;
+  static const Color lightViolet = PaletteBittube.primary;
+  static const Color cakeGreen = PaletteBittube.primary;
   static const Color cakeGreenWithOpacity = Color.fromRGBO(41, 187, 244, 0.2);
   static const Color switchBackground = Color.fromRGBO(228, 231, 240, 1.0);
   static const Color switchBorder = Color.fromRGBO(211, 222, 238, 1.0);
@@ -50,13 +51,13 @@ class Palette {
 }
 
 class PaletteDark {
-  static const Color darkThemeTitle = Color.fromRGBO(132, 154, 186, 1.0);
-  static const Color darkThemeTitleViolet = Color.fromRGBO(121, 92, 190, 1.0);
+  static const Color darkThemeTitle = PaletteBittube.light;
+  static const Color darkThemeTitleViolet = PaletteBittube.primary;
   static const Color darkThemeGrey = Color.fromRGBO(100, 115, 137, 1.0);
   static const Color darkThemeGreyWithOpacity = Color.fromRGBO(100, 115, 137, 0.5);
-  static const Color darkThemeMidGrey = Color.fromRGBO(20, 26, 38, 1.0);
+  static const Color darkThemeMidGrey =  PaletteBittube.darkMid;
   static const Color darkThemePurpleButton = Color.fromRGBO(182, 143, 255, 0.1);
-  static const Color darkThemePurpleButtonBorder = Color.fromRGBO(161, 120, 255, 0.7);
+  static const Color darkThemePurpleButtonBorder = PaletteBittube.primary;
   static const Color darkThemeBackground = Color.fromRGBO(39, 41, 50, 1.0);
   static const Color darkThemeBackgroundDark = Color.fromRGBO(9, 12, 18, 1.0);
   static const Color darkThemeDarkGrey = Color.fromRGBO(218, 228, 243, 0.06);
@@ -64,15 +65,15 @@ class PaletteDark {
   static const Color darkThemeBlackWithOpacity = Color.fromRGBO(0, 0, 0, 0.2);
   static const Color darkThemeBlack = Color.fromRGBO(7, 10, 14, 1.0);
   static const Color darkThemeAppBarBlack = Color.fromRGBO(4, 5, 7, 1.0);
-  static const Color darkThemeViolet = Color.fromRGBO(131, 87, 255, 0.2);
+  static const Color darkThemeViolet = PaletteBittube.primary;
   static const Color darkThemeIndigoButton = Color.fromRGBO(216, 223, 246, 0.1);
   static const Color darkThemeIndigoButtonBorder = Color.fromRGBO(196, 206, 237, 0.4);
   static const Color darkThemeBlueButton = Color.fromRGBO(151, 226, 255, 0.1);
-  static const Color darkThemeBlueButtonBorder = Color.fromRGBO(62, 190, 240, 0.6);
-  static const Color darkThemeCloseButton = Color.fromRGBO(34, 40, 74, 1.0);
+  static const Color darkThemeBlueButtonBorder = PaletteBittube.primary;
+  static const Color darkThemeCloseButton = PaletteBittube.primary;
   static const Color darkThemePinButton = Color.fromRGBO(136, 155, 183, 0.1);
   static const Color darkThemePinDigitButton = Color.fromRGBO(100, 115, 137, 0.34);
   static const Color switchBackground = Color.fromRGBO(100, 115, 137, 0.4);
   static const Color wildDarkBlueWithOpacity = Color.fromRGBO(155, 172, 197, 0.4);
-  static const Color wildDarkBlue = Color.fromRGBO(155, 172, 197, 0.8);
+  static const Color wildDarkBlue = PaletteBittube.light;
 }

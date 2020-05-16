@@ -96,7 +96,7 @@ class PinCodeState<T extends PinCodeWidget> extends State<T> {
       child: Column(children: <Widget>[
         Spacer(flex: 2),
         Text(title,
-            style: TextStyle(fontSize: 24, color: Palette.wildDarkBlue)),
+            style: TextStyle(fontSize: 24, color: Theme.of(context).primaryTextTheme.title.color)),
         Spacer(flex: 3),
         Container(
           width: 180,
@@ -112,8 +112,8 @@ class PinCodeState<T extends PinCodeWidget> extends State<T> {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: isFilled ? PaletteBittube.primary : Colors.transparent,
-                    border: Border.all(color: Palette.wildDarkBlue),
-                  ));
+                    border: Border.all(color: Theme.of(context).buttonColor,)
+                    ));
             }),
           ),
         ),
@@ -183,7 +183,7 @@ class PinCodeState<T extends PinCodeWidget> extends State<T> {
                               shape: CircleBorder(),
                               child: Text('$index',
                                   style: TextStyle(
-                                      fontSize: 23.0, color: Palette.blueGrey)),
+                                      fontSize: 23.0, color: Theme.of(context).primaryTextTheme.title.color)),
                             ),
                           );
                         }),
