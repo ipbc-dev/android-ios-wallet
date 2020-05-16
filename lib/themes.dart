@@ -4,9 +4,9 @@ import 'palette.dart';
 class Themes {
 
   static final ThemeData lightTheme = ThemeData(
-    fontFamily: 'Lato',
+    //fontFamily: 'Lato',
     brightness: Brightness.light,
-    backgroundColor: Colors.white,
+    backgroundColor: PaletteBittube.light,
     scaffoldBackgroundColor: Colors.white,
     hintColor: Palette.lightBlue,
     focusColor: Palette.lightGrey, // focused and enabled border color for text fields
@@ -18,9 +18,9 @@ class Themes {
         color: Colors.black,
       ),
       button: TextStyle(
-        color: Colors.black,
-        backgroundColor: Palette.purple, // button purple background color
-        decorationColor: Palette.deepPink // button pink border color
+        color: Colors.white,
+        backgroundColor: PaletteBittube.primary, // button primary background color
+        decorationColor: PaletteBittube.primary // button primary color
       ),
       headline: TextStyle(
         color: Colors.black // account list tile, contact page
@@ -53,12 +53,12 @@ class Themes {
       ),
       caption: TextStyle(
         color: Palette.wildDarkBlue, // clear button color, exchange page
-        backgroundColor: Palette.brightBlue, // button blue background color
-        decorationColor: Palette.cloudySky // button blue border color
+        backgroundColor: PaletteBittube.primary, // button blue background color
+        decorationColor: PaletteBittube.primary // button blue border color
       ),
       button: TextStyle(
-        backgroundColor: Palette.indigo, // button indigo background color
-        decorationColor: Palette.deepIndigo // button indigo border color
+        backgroundColor: PaletteBittube.primary, // button indigo background color
+        decorationColor: PaletteBittube.primary // button indigo border color
       ),
       subtitle: TextStyle(
         color: Colors.black,
@@ -94,9 +94,9 @@ class Themes {
 
 
   static final ThemeData darkTheme = ThemeData(
-    fontFamily: 'Lato',
+    //fontFamily: 'Lato',
     brightness: Brightness.dark,
-    backgroundColor: PaletteDark.darkThemeBackgroundDark,
+    backgroundColor: PaletteBittube.dark,
     scaffoldBackgroundColor: PaletteDark.darkThemeBlack,
     hintColor: PaletteDark.darkThemeGrey,
     focusColor: PaletteDark.darkThemeGreyWithOpacity, // focused and enabled border color for text fields
@@ -108,9 +108,9 @@ class Themes {
         color: Colors.white
       ),
       button: TextStyle(
-        color: Palette.wildDarkBlue,
-        backgroundColor: PaletteDark.darkThemePurpleButton, // button purple background color
-        decorationColor: PaletteDark.darkThemePurpleButtonBorder // button pink border color
+        color: Colors.white,
+        backgroundColor: PaletteBittube.primary, // button purple background color
+        decorationColor: PaletteBittube.primary,// button pink border color
       ),
       headline: TextStyle(
         color: PaletteDark.darkThemeGrey // account list tile, contact page
@@ -142,13 +142,13 @@ class Themes {
         backgroundColor: PaletteDark.darkThemePinDigitButton // pin button color
       ),
       caption: TextStyle(
-        color: PaletteDark.darkThemeTitleViolet, // clear button color, exchange page
-        backgroundColor: PaletteDark.darkThemeBlueButton, // button blue background color
-        decorationColor: PaletteDark.darkThemeBlueButtonBorder // button blue border color
+        color: Colors.white, // clear button color, exchange page
+        backgroundColor: PaletteBittube.primary, // button blue background color
+        decorationColor: PaletteBittube.primary,// button blue border color
       ),
       button: TextStyle(
-        backgroundColor: PaletteDark.darkThemeIndigoButton, // button indigo background color
-        decorationColor: PaletteDark.darkThemeIndigoButtonBorder // button indigo border color
+        backgroundColor: PaletteBittube.primary, // button indigo background color
+        decorationColor: PaletteBittube.primary // button indigo border color
       ),
       subtitle: TextStyle(
         color: PaletteDark.wildDarkBlueWithOpacity,

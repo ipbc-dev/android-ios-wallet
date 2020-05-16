@@ -111,7 +111,7 @@ class PinCodeState<T extends PinCodeWidget> extends State<T> {
                   height: size,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: isFilled ? Palette.deepPurple : Colors.transparent,
+                    color: isFilled ? PaletteBittube.primary : Colors.transparent,
                     border: Border.all(color: Palette.wildDarkBlue),
                   ));
             }),

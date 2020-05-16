@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+class PaletteBittube{
+  static const Color primary = Color.fromRGBO(0, 171, 255, 1.0);
+  static const Color dark = Color.fromRGBO(39, 39, 39, 1.0);
+  static const Color light = Color.fromRGBO(242, 240, 240, 1.0);
+}
+
 class Palette {
   static const Color lightBlue = Color.fromRGBO(126, 147, 177, 1.0);
   static const Color lightBlueWithOpacity = Color.fromRGBO(126, 147, 177, 0.4);

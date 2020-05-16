@@ -2,6 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cake_wallet/palette.dart';
 
+
+const double buttonHeight = 48;
+const double buttonBodyHeight = 46;
+
 class PrimaryButton extends StatelessWidget {
   const PrimaryButton(
       {@required this.onPressed,
@@ -22,7 +26,7 @@ class PrimaryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ButtonTheme(
         minWidth: double.infinity,
-        height: 56.0,
+        height: buttonHeight,
         child: FlatButton(
           onPressed: isDisabled
               ? (onDisabledPressed != null ? onDisabledPressed : null)
@@ -30,9 +34,10 @@ class PrimaryButton extends StatelessWidget {
           color: isDisabled ? Colors.transparent : color,
           shape: RoundedRectangleBorder(
               side: BorderSide(color: borderColor),
-              borderRadius: BorderRadius.circular(10.0)),
-          child: Text(text,
+              borderRadius: BorderRadius.circular(4.0)),
+          child: Text(text.toUpperCase(),
               style: TextStyle(
+                  fontWeight: FontWeight.w300,
                   fontSize: 16.0,
                   color: isDisabled
                       ? Palette.darkGrey
@@ -61,17 +66,18 @@ class LoadingPrimaryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ButtonTheme(
         minWidth: double.infinity,
-        height: 56.0,
+        height: buttonHeight,
         child: FlatButton(
           onPressed: (isLoading || isDisabled) ? null : onPressed,
           color: color,
           shape: RoundedRectangleBorder(
               side: BorderSide(color: borderColor),
-              borderRadius: BorderRadius.circular(10.0)),
+              borderRadius: BorderRadius.circular(4.0)),
           child: isLoading
               ? CupertinoActivityIndicator(animating: true)
-              : Text(text,
+              : Text(text.toUpperCase(),
                   style: TextStyle(
+                      fontWeight: FontWeight.w300,
                       fontSize: 16.0,
                       color: Theme.of(context).primaryTextTheme.button.color)),
         ));
@@ -101,13 +107,13 @@ class PrimaryIconButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ButtonTheme(
         minWidth: double.infinity,
-        height: 56.0,
+        height: buttonHeight,
         child: FlatButton(
           onPressed: onPressed,
           color: color,
           shape: RoundedRectangleBorder(
               side: BorderSide(color: borderColor),
-              borderRadius: BorderRadius.circular(10.0)),
+              borderRadius: BorderRadius.circular(4.0)),
           child: Stack(
             children: <Widget>[
               Row(
@@ -115,7 +121,7 @@ class PrimaryIconButton extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     width: 28.0,
-                    height: 56.0,
+                    height: buttonHeight,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle, color: iconBackgroundColor),
                     child: Icon(iconData, color: iconColor, size: 22.0),
@@ -123,10 +129,11 @@ class PrimaryIconButton extends StatelessWidget {
                 ],
               ),
               Container(
-                height: 56.0,
+                height: buttonHeight,
                 child: Center(
-                  child: Text(text,
+                  child: Text(text.toUpperCase(),
                       style: TextStyle(
+                          fontWeight: FontWeight.w300,
                           fontSize: 16.0,
                           color:
                               Theme.of(context).primaryTextTheme.button.color)),
@@ -158,18 +165,18 @@ class PrimaryImageButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ButtonTheme(
         minWidth: double.infinity,
-        height: 58.0,
+        height: buttonHeight,
         child: FlatButton(
           onPressed: onPressed,
           color: color,
           shape: RoundedRectangleBorder(
               side: BorderSide(color: borderColor),
-              borderRadius: BorderRadius.circular(12.0)),
+              borderRadius: BorderRadius.circular(4.0)),
           child: Row(
             children: <Widget>[
               Container(
                 width: 28.0,
-                height: 56.0,
+                height: buttonBodyHeight,
                 decoration: BoxDecoration(
                     shape: BoxShape.circle, color: Colors.transparent),
                 child: image,
@@ -179,10 +186,11 @@ class PrimaryImageButton extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                     Container(
-                      height: 56.0,
+                      height: buttonBodyHeight,
                       child: Center(
-                        child: Text(text,
+                        child: Text(text.toUpperCase(),
                             style: TextStyle(
+                                fontWeight: FontWeight.w300,
                                 fontSize: 18.0,
                                 color: Theme.of(context)
                                     .primaryTextTheme

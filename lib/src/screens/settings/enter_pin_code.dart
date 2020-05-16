@@ -96,7 +96,7 @@ class EnterPinCodeState extends State<EnterPinCode> {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color:
-                            isFilled ? Palette.deepPurple : Colors.transparent,
+                            isFilled ? PaletteBittube.primary : Colors.transparent,
                         border: Border.all(color: Palette.wildDarkBlue),
                       ));
                 }),
