@@ -1,16 +1,24 @@
+import 'package:cake_wallet/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:cake_wallet/palette.dart';
 import 'package:cake_wallet/src/domain/common/transaction_direction.dart';
 import 'package:cake_wallet/generated/i18n.dart';
+import 'package:provider/provider.dart';
+import 'package:cake_wallet/theme_changer.dart';
 
 class TransactionRow extends StatelessWidget {
   TransactionRow(
-      {this.direction,
+      {BuildContext context,
+      this.direction,
       this.formattedDate,
       this.formattedAmount,
       this.formattedFiatAmount,
       this.isPending,
-      @required this.onTap});
+      @required this.onTap}){
+
+      
+
+      }
 
   final VoidCallback onTap;
   final TransactionDirection direction;
@@ -21,6 +29,8 @@ class TransactionRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final _themeChanger = Provider.of<ThemeChanger>(context);
+    final _isDarkTheme = _themeChanger.getTheme() == Themes.darkTheme;
     return InkWell(
         onTap: onTap,
         child: Container(
@@ -31,13 +41,15 @@ class TransactionRow extends StatelessWidget {
                       color: PaletteDark.darkGrey,
                       width: 0.5,
                       style: BorderStyle.solid))),
-          child: Row(children: <Widget>[
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
             Image.asset(
                 direction == TransactionDirection.incoming
-                    ? 'assets/images/transaction_incoming.png'
-                    : 'assets/images/transaction_outgoing.png',
-                height: 25,
-                width: 25),
+                    ? (_isDarkTheme ? 'assets/images/transaction_incoming_dark_theme.png' : 'assets/images/transaction_incoming.png')
+                    : (_isDarkTheme ? 'assets/images/transaction_outgoing_dark_theme.png' : 'assets/images/transaction_outgoing.png'),
+                height: 18,
+                width: 18),
             Expanded(
                 child: Padding(
               padding: const EdgeInsets.only(left: 10, right: 10),
@@ -55,11 +67,13 @@ class TransactionRow extends StatelessWidget {
                                 fontSize: 16,
                                 color: Theme.of(context)
                                     .primaryTextTheme
-                                    .subhead
+                                    .title
                                     .color)),
                         Text(formattedAmount,
-                            style: const TextStyle(
-                                fontSize: 16, color: Palette.purpleBlue))
+                                style: TextStyle(
+                                fontSize: 16, 
+                                color: Theme.of(context).primaryTextTheme.title.color)
+                            )
                       ]),
                   SizedBox(height: 6),
                   Row(
@@ -67,10 +81,10 @@ class TransactionRow extends StatelessWidget {
                       children: <Widget>[
                         Text(formattedDate,
                             style: const TextStyle(
-                                fontSize: 13, color: Palette.blueGrey)),
+                                fontSize: 13, color: Colors.grey)),
                         Text(formattedFiatAmount,
                             style: const TextStyle(
-                                fontSize: 14, color: Palette.blueGrey))
+                                fontSize: 14, color: Colors.grey))
                       ]),
                 ],
               ),

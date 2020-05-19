@@ -27,7 +27,7 @@ class Themes {
         color: PaletteBittube.dark, // account list tile, contact page
       ),
       subtitle: TextStyle(
-        color: Palette.wildDarkBlue // filters
+        color: Colors.grey // filters
       ),
       subhead: TextStyle(
         color: PaletteBittube.dark, // transaction raw, trade raw
@@ -118,7 +118,7 @@ class Themes {
         color: PaletteBittube.light, // account list tile, contact page
       ),
       subtitle: TextStyle(
-        color: PaletteDark.darkThemeGrey // filters
+        color: Colors.grey  // filters
       ),
       subhead: TextStyle(
         color: Palette.blueGrey // transaction raw, trade raw

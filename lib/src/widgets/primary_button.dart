@@ -175,7 +175,7 @@ class PrimaryImageButton extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Container(
-                width: 28.0,
+                width: 20.0,
                 height: buttonBodyHeight,
                 decoration: BoxDecoration(
                     shape: BoxShape.circle, color: Colors.transparent),

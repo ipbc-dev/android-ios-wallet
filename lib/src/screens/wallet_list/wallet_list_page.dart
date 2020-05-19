@@ -105,8 +105,8 @@ class WalletListBodyState extends State<WalletListBody> {
               color: Theme.of(context).primaryTextTheme.button.backgroundColor,
               borderColor:
                   Theme.of(context).primaryTextTheme.button.decorationColor,
-              iconColor: Palette.violet,
-              iconBackgroundColor: Theme.of(context).primaryIconTheme.color,
+              iconColor: PaletteBittube.primary,
+              iconBackgroundColor: PaletteBittube.light,
               text: S.of(context).wallet_list_create_new_wallet),
           SizedBox(height: 10.0),
           PrimaryIconButton(
@@ -117,8 +117,8 @@ class WalletListBodyState extends State<WalletListBody> {
               color: Theme.of(context).accentTextTheme.button.backgroundColor,
               borderColor:
                   Theme.of(context).accentTextTheme.button.decorationColor,
-              iconColor: Theme.of(context).primaryTextTheme.caption.color,
-              iconBackgroundColor: Theme.of(context).accentIconTheme.color)
+              iconColor: PaletteBittube.primary,
+              iconBackgroundColor: PaletteBittube.light)
         ]));
   }
 }

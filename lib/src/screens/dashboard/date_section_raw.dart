@@ -39,7 +39,7 @@ class DateSectionRaw extends StatelessWidget {
       padding: const EdgeInsets.only(top: 10, bottom: 10),
       child: Center(
           child: Text(title,
-              style: TextStyle(fontSize: 16, color: Palette.wildDarkBlue))),
+              style: TextStyle(fontSize: 16, color: Colors.grey))),
     );
   }
 }

@@ -73,7 +73,7 @@ class DashboardPage extends BasePage {
           padding: EdgeInsets.all(0),
           onPressed: () => Navigator.of(context).pushNamed(Routes.settings),
           child: Image.asset('assets/images/settings_icon.png',
-              color: Colors.grey, height: 20)),
+              color: Theme.of(context).primaryTextTheme.title.color, height: 20)),
     );
   }
 
@@ -331,8 +331,8 @@ class DashboardPageBodyState extends State<DashboardPageBody> {
                                       child: PrimaryImageButton(
                                     image: Image.asset(
                                         'assets/images/send_icon.png',
-                                        height: 25,
-                                        width: 25),
+                                        height: 20,
+                                        width: 20),
                                     text: S.of(context).send,
                                     onPressed: () => Navigator.of(context,
                                             rootNavigator: true)
@@ -351,8 +351,8 @@ class DashboardPageBodyState extends State<DashboardPageBody> {
                                       child: PrimaryImageButton(
                                     image: Image.asset(
                                         'assets/images/receive_icon.png',
-                                        height: 25,
-                                        width: 25),
+                                        height: 20,
+                                        width: 20),
                                     text: S.of(context).receive,
                                     onPressed: () => Navigator.of(context,
                                             rootNavigator: true)
@@ -506,10 +506,7 @@ class DashboardPageBodyState extends State<DashboardPageBody> {
                             child: Text(S.of(context).filters,
                                 style: TextStyle(
                                     fontSize: 16.0,
-                                    color: Theme.of(context)
-                                        .primaryTextTheme
-                                        .subtitle
-                                        .color)),
+                                    color: Colors.grey)),
                             onSelected: (item) async {
                               if (item == 2) {
                                 final List<DateTime> picked =
