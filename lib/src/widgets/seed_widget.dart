@@ -332,7 +332,7 @@ class SeedWidgetState extends State<SeedWidget> {
                               isDisabled: !isSeedValid(),
                               onPressed: () => widget.onFinish != null
                                   ? widget.onFinish()
-                                  : null,
+                                  : (){},
                               color: Theme.of(context)
                                   .primaryTextTheme
                                   .button
@@ -347,7 +347,7 @@ class SeedWidgetState extends State<SeedWidget> {
                                   : S.of(context).add_new_word,
                               onPressed: () => isCurrentMnemoticValid
                                   ? saveCurrentMnemoticToItems()
-                                  : null,
+                                  : (){},
                               onDisabledPressed: () => showErrorIfExist(),
                               isDisabled: !isCurrentMnemoticValid,
                               color: PaletteDark.darkThemeBlueButton,

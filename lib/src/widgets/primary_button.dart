@@ -31,16 +31,16 @@ class PrimaryButton extends StatelessWidget {
           onPressed: isDisabled
               ? (onDisabledPressed != null ? onDisabledPressed : null)
               : onPressed,
-          color: isDisabled ? Colors.transparent : color,
+          color: isDisabled ? Colors.grey : color,
           shape: RoundedRectangleBorder(
-              side: BorderSide(color: borderColor),
+              side: BorderSide(color: isDisabled ? PaletteBittube.light : borderColor),
               borderRadius: BorderRadius.circular(4.0)),
           child: Text(text.toUpperCase(),
               style: TextStyle(
                   fontWeight: FontWeight.w300,
                   fontSize: 16.0,
                   color: isDisabled
-                      ? Palette.darkGrey
+                      ? PaletteBittube.light
                       : Theme.of(context).primaryTextTheme.button.color)),
         ));
   }
