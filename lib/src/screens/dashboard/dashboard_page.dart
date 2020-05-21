@@ -81,12 +81,7 @@ class DashboardPage extends BasePage {
   Widget body(BuildContext context) => DashboardPageBody(key: _bodyKey);
 
   @override
-  Widget floatingActionButton(BuildContext context) => FloatingActionButton(
-      child: Image.asset('assets/images/exchange_icon.png',
-          color: Colors.white, height: 26, width: 22),
-      backgroundColor: Palette.floatingActionButton,
-      onPressed: () async => await Navigator.of(context, rootNavigator: true)
-          .pushNamed(Routes.exchange));
+  Widget floatingActionButton(BuildContext context) => null;
 
   void _presentWalletMenu(BuildContext bodyContext) {
     final walletMenu = WalletMenu(bodyContext);

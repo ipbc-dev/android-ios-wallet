@@ -244,42 +244,7 @@ class SettingsFormState extends State<SettingsForm> {
           },
           attribute: Attributes.rawWidget),
       SettingsItem(title: ItemHeaders.support, attribute: Attributes.header),
-      SettingsItem(
-          onTaped: () => _launchUrl(_emailUrl),
-          title: 'Email',
-          link: 'support@cakewallet.com',
-          image: null,
-          attribute: Attributes.link),
-      SettingsItem(
-          onTaped: () => _launchUrl(_telegramUrl),
-          title: 'Telegram',
-          link: 't.me/cakewallet_bot',
-          image: _telegramImage,
-          attribute: Attributes.link),
-      SettingsItem(
-          onTaped: () => _launchUrl(_twitterUrl),
-          title: 'Twitter',
-          link: 'twitter.com/CakewalletXMR',
-          image: _twitterImage,
-          attribute: Attributes.link),
-      SettingsItem(
-          onTaped: () => _launchUrl(_changeNowUrl),
-          title: 'ChangeNow',
-          link: 'support@changenow.io',
-          image: _changeNowImage,
-          attribute: Attributes.link),
-      SettingsItem(
-          onTaped: () => _launchUrl(_xmrToUrl),
-          title: 'XMR.to',
-          link: 'support@xmr.to',
-          image: _xmrBtcImage,
-          attribute: Attributes.link),
-      SettingsItem(
-          onTaped: () => _launchUrl(_morphUrl),
-          title: 'MorphToken',
-          link: 'support@morphtoken.com',
-          image: _morphImage,
-          attribute: Attributes.link),
+      
       SettingsItem(
           onTaped: () {
             Navigator.push(
