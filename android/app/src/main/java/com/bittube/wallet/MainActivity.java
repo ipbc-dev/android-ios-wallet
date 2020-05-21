@@ -1,4 +1,4 @@
-package com.cakewallet.cake_wallet;
+package com.bittube.wallet;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterFragmentActivity;

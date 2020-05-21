@@ -31,7 +31,6 @@ class WelcomePage extends BasePage {
           AspectRatio(
               aspectRatio: _aspectRatioImage,
               child: FittedBox(child: _image, fit: BoxFit.fill)),
-          Positioned(bottom: 0.0, child: _cakeLogo)
         ],
       ),
       Expanded(
