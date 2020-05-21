@@ -73,7 +73,7 @@ class NodeListPage extends BasePage {
             child: Stack(
               alignment: Alignment.center,
               children: <Widget>[
-                Icon(Icons.add, color: Palette.violet, size: 22.0),
+                Icon(Icons.add, color: PaletteBittube.light, size: 22.0),
                 ButtonTheme(
                   minWidth: 28.0,
                   height: 28.0,
@@ -120,11 +120,11 @@ class NodeListPageBodyState extends State<NodeListPageBody> {
                   final node = nodeList.nodes[index];
 
                   return Observer(builder: (_) {
-                    final isCurrent = settings.node == null
+                    final isCurrent = (settings == null || settings.node == null || node == null)
                         ? false
                         : node.key == settings.node.key;
 
-                    final content = Container(
+                    final content = node == null ? Container() : Container(
                         color: isCurrent ? currentColor : notCurrentColor,
                         child: ListTile(
                           title: Text(
@@ -182,7 +182,7 @@ class NodeListPageBodyState extends State<NodeListPageBody> {
 
                     return isCurrent
                         ? content
-                        : Dismissible(
+                        : node == null ? Container() : Dismissible(
                             key: Key('${node.key}'),
                             confirmDismiss: (direction) async {
                               return await showDialog(
